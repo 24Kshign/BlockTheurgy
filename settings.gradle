@@ -1,0 +1,8 @@
+include ':app' //主工程
+include ':lib_http' //http请求 module
+include ':lib_basicui' //公共UI module
+include ':lib_basicapp' //app工具类 module
+
+gradle.ext.compileSdkVersion = 28
+gradle.ext.minSdkVersion = 16
+gradle.ext.targetSdkVersion = 28
